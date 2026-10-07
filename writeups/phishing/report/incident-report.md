@@ -118,19 +118,19 @@ evidence/
 
 **Purpose:** Demonstrate the user-facing notification and CAIXA impersonation.
 
-![CAIXA impersonation notification](/evidence/screenshots/app/01-caixa-notification.jpg)
+![CAIXA impersonation notification](/writeups/phishing/evidence/screenshots/app/01-caixa-notification.jpg)
 
 ### Screenshot 02 — Fake Google Play-style page
 
 **Purpose:** Demonstrate the CAIXA-branded, Google Play-style page served at `caixa[.]braz[.]lat`.
 
-![CAIXA-branded Google Play-style page](/evidence/screenshots/app/02-fake-google-play-page.jpg)
+![CAIXA-branded Google Play-style page](/writeups/phishing/evidence/screenshots/app/02-fake-google-play-page.jpg))
 
 ### Screenshot 03 — [Short title]
 
 **Purpose:** Application notification details.]
 
-![Additional page evidence](/evidence/screenshots/app/03-app-details.jpg)
+![Additional page evidence](/writeups/phishing/evidence/screenshots/app/03-app-details.jpg))
 
 > **Evidence handling:** Originals are preserved unmodified under `screenshots/`.
 
