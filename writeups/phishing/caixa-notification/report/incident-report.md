@@ -7,8 +7,8 @@
 | **Incident ID** | DFIR-2026-001 |
 | **Status** | Investigation ongoing — Phase 1 (passive analysis) completed |
 | **Severity** | Medium (provisional) — active brand impersonation targeting banking customers; no confirmed payload delivery or credential harvesting yet. To be revisited after Phase 2. |
-| **Analyst** | [Your name] |
-| **Initial observation** | [YYYY-MM-DD], September 2026 |
+| **Analyst** | luizfleandro |
+| **Initial observation** | 2026-09-21 |
 | **Primary domain** | `caixa[.]braz[.]lat` (defanged) |
 | **Incident type** | Suspected phishing / brand impersonation / malicious web distribution |
 
