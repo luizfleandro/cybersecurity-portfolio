@@ -41,9 +41,9 @@ in a simulator:
 ```
 esp32-temperature-sensor/
 ├── esp32_http/
-│   └── esp32_http.ino        # Sends readings over plain HTTP
+│   └── esp32_http_dht22.ino  # Sends readings over plain HTTP
 ├── esp32_https/
-│   └── esp32_https.ino       # Sends readings over HTTPS (TLS)
+│   └── esp32_https_dht22.ino # Sends readings over HTTPS (TLS)
 ├── server.py                 # Python server, HTTP version
 ├── tls_server.py             # Python server, HTTPS version
 ├── certs/                    # Self-signed certificate (not included, see below)
@@ -80,8 +80,15 @@ python3 tls_server.py
 Runs on port 8443.
 
 ### 3. ESP32
-Open either `esp32_http.ino` or `esp32_https.ino` in the Arduino IDE
-with ESP32 board support installed, then:
+Open either `esp32_http/esp32_http_dht22.ino` or
+`esp32_https/esp32_https_dht22.ino` in the Arduino IDE with ESP32 board
+support installed. Install these libraries from the Arduino Library
+Manager (Sketch → Include Library → Manage Libraries):
+
+- **DHT sensor library** by Adafruit (tested with 1.4.7)
+- **Adafruit Unified Sensor** by Adafruit (tested with 1.1.15)
+
+Then:
 
 1. Replace `YOUR_WIFI_SSID` and `YOUR_WIFI_PASSWORD` with your network
    credentials.
